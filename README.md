@@ -1,9 +1,13 @@
 # php_weChat
 
-ÓĞ¹Ø±¾ÎÄ¼ş¼ĞÏÂµÄ´úÂëËµÃ÷
+æœ‰å…³æœ¬æ–‡ä»¶å¤¹ä¸‹çš„ä»£ç è¯´æ˜
 
-remind/crontab ÊÇlinuxÈÎÎñÊ±¼ä±í app/weChatPublic.sql ÊÇºóÌ¨ĞèÒªµÄmysqlµÄÊı¾İ¿â±í
+remindæ–‡ä»¶å¤¹ä¸‹çš„ä»£ç æ˜¯åšè¯¾è¡¨æé†’<br>
+appæ–‡ä»¶å¤¹ä¸‹çš„ä»£ç æ˜¯å…¬ä¼—å·çš„åå°
 
-ÁíÍâ»¹ĞèÒªÉèÖÃ¹«ÖÚºÅ²Ëµ¥°´Å¥£¬°´Å¥Êı¾İÈçÏÂ
+remind/crontab æ˜¯linuxä»»åŠ¡æ—¶é—´è¡¨ <br>
+app/weChatPublic.sql æ˜¯åå°éœ€è¦çš„mysqlçš„æ•°æ®åº“è¡¨
 
-{ "button":[ { "name":"¿ªÆôÌáĞÑ", "sub_button":[ { "type":"click", "name":"µ±ÈÕÌáĞÑ", "key":"setDayRemindOpen" }, { "type":"click", "name":"¿ÎÇ°ÌáĞÑ", "key":"setBeforeRemindOpen" } ] },{ "name":"¹Ø±ÕÌáĞÑ", "sub_button": [ { "type":"click", "name":"µ±ÈÕÌáĞÑ", "key":"setDayRemindClose" },{ "type":"click", "name":"¿ÎÇ°ÌáĞÑ", "key":"setBeforeRemindClose" } ] },{ "name":"ÎÒµÄ", "sub_button":[ { "type":"click", "name":"ÌáĞÑ×´Ì¬", "key":"getRemindStatus" },{ "type":"click", "name":"²é¿´¿Î±í", "key":"getSchedule" } ] } ] }
+å¦å¤–è¿˜éœ€è¦è®¾ç½®å…¬ä¼—å·èœå•æŒ‰é’®ï¼ŒæŒ‰é’®æ•°æ®å¦‚ä¸‹
+
+{ "button":[ { "name":"å¼€å¯æé†’", "sub_button":[ { "type":"click", "name":"å½“æ—¥æé†’", "key":"setDayRemindOpen" }, { "type":"click", "name":"è¯¾å‰æé†’", "key":"setBeforeRemindOpen" } ] },{ "name":"å…³é—­æé†’", "sub_button": [ { "type":"click", "name":"å½“æ—¥æé†’", "key":"setDayRemindClose" },{ "type":"click", "name":"è¯¾å‰æé†’", "key":"setBeforeRemindClose" } ] },{ "name":"æˆ‘çš„", "sub_button":[ { "type":"click", "name":"æé†’çŠ¶æ€", "key":"getRemindStatus" },{ "type":"click", "name":"æŸ¥çœ‹è¯¾è¡¨", "key":"getSchedule" } ] } ] }
