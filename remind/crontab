@@ -1,0 +1,11 @@
+30 8 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 1  > /dev/null 2>&1
+10 10 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 2  > /dev/null 2>&1
+0 12 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 3  > /dev/null 2>&1
+30 13 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 4  > /dev/null 2>&1
+0 15 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 5  > /dev/null 2>&1
+30 16 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 6  > /dev/null 2>&1
+30 18 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 7  > /dev/null 2>&1
+0 20 * * * php /root/phpApp/weChatPublic/crontab/remind.php beforeRemind 8  > /dev/null 2>&1
+30 0 * * * php /root/phpApp/weChatPublic/crontab/remind.php dayRemind  > /dev/null 2>&1
+30 20 * * * php /root/phpApp/weChatPublic/crontab/setTodaySch.php  > /dev/null 2>&1
+
